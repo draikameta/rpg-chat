@@ -11,7 +11,13 @@ const io = new Server(server);
 const PORT = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, "public")));
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/public/index.html');
+});
 
+app.get('/pk', (req, res) => {
+  res.sendFile(__dirname + '/public/pk.html');
+});
 app.get("/history/:chat", (req, res) => {
   const chat = req.params.chat.toLowerCase();
   const filePath = path.join(__dirname, "data", `${chat}.json`);
