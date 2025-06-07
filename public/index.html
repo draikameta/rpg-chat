@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tablet RPG - I.P</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <nav class="tabs">
+      <button class="tab-btn active" data-chat="dk">D.K</button>
+      <button class="tab-btn" data-chat="pk">P.K</button>
+      <button class="tab-btn" data-chat="en">E.N</button>
+    </nav>
+
+    <div id="chat-container">
+      <ul id="messages"></ul>
+    </div>
+
+    <div id="input-area" class="hidden">
+      <input type="text" id="msg-input" placeholder="Digite sua mensagem..." autocomplete="off" />
+      <button id="send-btn">Enviar</button>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

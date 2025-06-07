@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tablet RPG - P.K</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h2>Chat P.K (Ativo)</h2>
+    </header>
+    <div id="chat-container">
+      <ul id="messages"></ul>
+    </div>
+
+    <div id="input-area">
+      <input type="text" id="msg-input" placeholder="Digite sua mensagem..." autocomplete="off" />
+      <button id="send-btn">Enviar</button>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="pk.js"></script>
+</body>
+</html>
