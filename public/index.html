@@ -31,5 +31,17 @@
 
   <script src="/socket.io/socket.io.js"></script>
   <script src="script.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const iniciarBtn = document.getElementById("btn-iniciar");
+      const telaInicial = document.getElementById("tela-inicial");
+      const interfaceChat = document.getElementById("interface-chat");
+
+      iniciarBtn.addEventListener("click", () => {
+        telaInicial.style.display = "none";
+        interfaceChat.style.display = "block";
+      });
+    });
+  </script>
 </body>
 </html>
