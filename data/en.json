@@ -13,5 +13,5 @@
   {"sender":"E.N","message":"Deves avisá-lo immediatamente!","time":"23:05"},
   {"sender":"E.N","message":"Comprehendes o que desejo dizer?","time":"23:06"},
   {"sender":"E.N","message":"Por que não me respondes?","time":"23:06"},
-  {"sender":"sistema", "message": "- I.P perdeu a conexão -"}
+  {"sender":"Sistema", "message": "- I.P perdeu a conexão -"}
 ]
