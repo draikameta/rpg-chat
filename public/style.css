@@ -98,3 +98,7 @@ body {
 #send-btn:hover {
   background-color: #00cc00;
 }
+.message.sistema {
+  text-align: center;
+  font-style: italic;
+  color: #888;
