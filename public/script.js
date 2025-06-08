@@ -65,6 +65,8 @@ socket.on("message", (msg) => {
     messagesEl.scrollTop = messagesEl.scrollHeight;
   }
 });
-
+if (msg.sender === "sistema") {
+  messageElement.classList.add("sistema");
+}
 // Inicializa na aba D.K
 setActiveTab(currentChat);
