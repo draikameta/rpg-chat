@@ -102,3 +102,41 @@ body {
   text-align: center;
   font-style: italic;
   color: #888;
+  .tela-terminal {
+  background-color: #0f0f0f;
+  color: #00ff00;
+  font-family: monospace;
+  text-align: center;
+  padding: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tela-terminal h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.tela-terminal p {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+#btn-iniciar {
+  background-color: transparent;
+  border: 2px solid #00ff00;
+  color: #00ff00;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: monospace;
+  transition: all 0.3s ease;
+}
+
+#btn-iniciar:hover {
+  background-color: #00ff00;
+  color: #000;
+}
