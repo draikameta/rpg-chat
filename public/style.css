@@ -102,55 +102,21 @@ body {
   text-align: center;
   font-style: italic;
   color: #888;
-  .tela-terminal {
+  
+ /* Estilo da tela inicial */
+.tela-terminal {
   background-color: #0f0f0f;
   color: #00ff00;
   font-family: monospace;
-  text-align: center;
-  padding: 50px;
-  height: 100vh;
+  position: fixed;
+  inset: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-
-.tela-terminal h1 {
-  font-size: 32px;
-  margin-bottom: 20px;
-  letter-spacing: 2px;
-}
-
-.tela-terminal p {
-  margin-bottom: 30px;
-  font-size: 18px;
-}
-
-#btn-iniciar {
-  background-color: transparent;
-  border: 2px solid #00ff00;
-  color: #00ff00;
-  padding: 12px 24px;
-  font-size: 16px;
-  cursor: pointer;
-  font-family: monospace;
-  transition: all 0.3s ease;
-}
-
-#btn-iniciar:hover {
-  background-color: #00ff00;
-  color: #000;
-}
-  .tela-terminal {
-  background-color: #0f0f0f;
-  color: #00ff00;
-  font-family: monospace;
-  text-align: center;
-  padding: 50px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 9999;
+  padding: 40px;
 }
 
 .tela-terminal h1 {
@@ -160,8 +126,8 @@ body {
 }
 
 .tela-terminal p {
-  margin-bottom: 30px;
   font-size: 18px;
+  margin-bottom: 30px;
   max-width: 400px;
   line-height: 1.5;
 }
@@ -169,12 +135,12 @@ body {
 #btn-iniciar {
   background-color: #00ff00;
   border: 2px solid #00ff00;
-  color: #000000;
+  color: #000;
   padding: 12px 30px;
   font-size: 16px;
-  cursor: pointer;
   font-family: monospace;
   border-radius: 6px;
+  cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 0 12px #00ff00;
 }
@@ -184,3 +150,4 @@ body {
   color: #00ff00;
   border-color: #00ff00;
 }
+
