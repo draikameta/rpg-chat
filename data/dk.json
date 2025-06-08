@@ -19,5 +19,5 @@
   {"sender":"I.P","message":"Qualquer coisa me manda um bip.","time":"21:42"},
   {"sender":"D.K","message":"Sim.","time":"21:43"},
   {"sender":"D.K","message":"Dobro veče.","time":"21:43"},
-  {"sender":"sistema", "message": "- I.P perdeu a conexão -"}
+  {"sender":"Sistema", "message": "- I.P perdeu a conexão -"}
 ]
